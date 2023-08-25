@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Flexbox</title>
+      <style>
+
+        h1 {
+
+            color: grey;
+        }
+
+        p {
+
+            color: brown;
+        }
+
+        h3 {
+
+            color: aquamarine;
+        }
+        
+        p {
+
+          width: 470px;
+          border: 10px solid grey;
+        }
+
+        h3 {
+
+          margin-top: 15px;
+          margin-bottom: 20px;
+          margin-left: 12px;
+          margin-right: 15px;   
+        }
+
+        p {
+
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-left: 20px;
+          margin-right: 20px;   
+        }
+
+        h1 {
+
+            width: 120px;
+            border: 10px double gainsboro;  
+        }
+
+        p {
+
+            padding-left: 35px;
+            padding-top: 20px;
+            padding-right: 15px;
+            padding-bottom: 35;  
+        }
+
+        h3 {
+
+            padding-left: 35px;
+            padding-top: 15px;
+            padding-right: 15px;
+            padding-bottom: 35;  
+        }
+
+        h1 {
+
+            margin-top: 20px;
+          margin-bottom: 20px;
+          margin-left: 150px;
+          margin-right: 20px;   
+        }
+      </style>
+
+    </head>
+    <body>
+       <h1>Flexbox</h1>
+       <ul>
+        <li><a href="index.html">Layout</a></li>
+       </ul>
+     <p>Flexbox is a layout mechanism designed for laying out groups of items in one dimension. Learn how to use it in this module.
+
+        A design pattern that can be tricky in responsive design is a sidebar that sits inline with some content.
+        Where there is viewport space, this pattern works great, but where space is condensed, that rigid layout can become problematic.</p>
+        <p>The Flexible Box Layout Model (flexbox) is a layout model designed for one-dimensional content.
+            It excels at taking a bunch of items which have different sizes, and returning the best layout for those items.</p>
+            <h3><strong><u>Writing modes and direction</u></strong></h3>
+
+            <p>Flex items lay out as a row by default. A row runs in the direction that sentences flow in your writing mode and script direction.
+                This means that if you are working in Arabic, which has a right-to-left (rtl) script direction, the items will line up on the right.
+                Tab order would also begin on the right as this is the way sentences are read in Arabic.</p>
+
+                <p>With the main and cross axis plus the writing mode to consider, the fact that we talk about start and end rather than top,
+                    bottom, left, and right in flexbox might be easier to understand.
+                    Each axis has a start and an end. The start of the main axis is referred to as main-start.
+                    So our flex items initially line up from main-start. The end of that axis is main-end. The start of the cross axis is cross-start and the end cross-end.</p>
+
+                    <p>If you are working with a vertical writing mode, like some Japanese typefaces, then a row will run vertically, from top to bottom.
+                        Try changing the flex-direction in this demo which is using a vertical writing mode.</p>
+
+                     <h3><strong><u>flex items</u></strong></h3>
+                     
+                     <p>The initial value of the flex-wrap property is nowrap.
+                        This means that if there is not enough space in the container the items will overflow.</p>
+    </body>
+</html>
